@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    width: 1540px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(0);
+    width: 15540px;
+}
+.green{
+    background-color: green;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+.lef-box{
+    position: absolute;
+    width: 770px;
+    background-color: black;
+    right: 0;
+    /* height: 100vh; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.graf{
+    display: flex;
+}
+
+
+#card{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 100px;
+    position: absolute;
+    top: 300px;
+    right: 700px;
+
+
+}
+
+.im{
+    width: 770px;
+   
+}
+
+button{
+    border: none;
+    background-color: rebeccapurple;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem;
+    width: 100px;
+    outline: none;
+    /* position: absolute; */
+    z-index: 10;
+    top: 0;
+
+}
+
+button:hover{
+    opacity: 0.90;
+}
+
+img{
+    object-fit: cover;
+    width: 1140px;
+    height: 100vh;
+}
